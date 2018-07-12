@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Teclas</title>
+				<meta charset="utf-8">
+				<!-- Latest compiled and minified CSS -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+				<!-- Optional theme -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+				<!-- Latest compiled and minified JavaScript -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+				<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+				<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+			<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+				<script src="jquery/jquery-3.1.1.min.js"></script>
+
+				<link rel="stylesheet" type="text/css" href="estilos/css.css">
+				<script type="text/javascript" src="estilos/style - teclas.js"></script>
+
+		</head>
+<body>
+	<nav class="container-fluid"><!--<nav class="navbar navbar-default container-fluid">-->
+		<div class="menu">
+			<div class="row col-xs-8 msg">
+				<span id="alertaCor">Pressione</span> as teclas que aparecem na tela.
+			</div>
+
+			<div class="row col-xs-4 pull-right">
+				<form class="form-inline pull-right" name="proximo" action="clique.html">	
+					<div class="form-group">
+						<input type="reset" class="form-control btn btn-danger" id="reiniciar" value="Reiniciar">
+						<input type="text" id="addCount" class="form-control text-center" readonly placeholder="0">
+						<input type="submit" class="btn btn-success" id="avancar" value="Avançar">
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row" id="corpoTeclas">
+			<div id="teclasShift"  class="col-xs-3" style="border: solid 1px aqua;">
+				<div id="teclas" >
+					<p>Pressione as teclas abaixo</p>
+				</div>
+
+				<form name="" id="" class="form">
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla I</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="aspas" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla N</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="exclamacao" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla F</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="arroba" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla O</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="sustenido" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla R</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="dolar" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla M</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="porcento" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla A</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="trema" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla T</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="ecomercial" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla I</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="asterisco" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla C</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="abreParentese" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla A</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="fechaParentese" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+				</form>
+			</div>
+
+			<div id="teclasShift"  class="col-xs-3" style="border: solid 1px aqua;">
+				<div id="teclas" >
+					<p>Pressione a tecla SHIFT para pressionar as outras</p>
+				</div>
+
+				<form name="" id="" class="form">
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla "</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="aspas" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla !</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="exclamacao" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla @</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="arroba" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla #</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="sustenido" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla $</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="dolar" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla %</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="porcento" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla ¨</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="trema" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla &</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="ecomercial" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla *</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="asterisco" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla (</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="abreParentese" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+
+					<div id="form-inline">
+						<div id="separaDivs" class="pull-left">
+							<label class="pull-left">Pressione a tecla )</label>
+							<div class="col-xs-4 ">
+								<input  type="text" id="fechaParentese" class="form-control" maxlength="1" required>
+							</div>
+							<div id="ok" class="pull-left">
+								<span id="ok">OK</span>
+							</div>
+						</div>	
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

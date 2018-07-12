@@ -1,0 +1,198 @@
+table{
+	margin-top: 30px;
+	/*border: solid 1px red;*/
+}
+
+#mensagens{
+	width: 750px;
+	max-width: auto;
+	color: green;
+}
+
+#parabens{
+	font-weight: bold;
+	font-size: 10em;
+	color: green;
+}
+
+#msg{
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+}
+
+td{
+	margin-top: 30px;
+	/*border: solid 1px green;*/
+	height: 90px;
+	width: 90px;
+}
+
+#divFixa{
+	height: 35px;
+	width: 35px;
+}
+
+body{
+	padding-top: 5px;
+}
+
+#alertaCor{
+	color: #ff0000;
+}
+
+nav{
+	box-shadow: 1px 5px 10px #EEE9E9;
+	height: 50px;
+}
+
+.menu{
+	padding: 7px;
+	color: green;
+	font-weight: bold;
+}
+
+.msg{
+	padding: 7px;
+	font-size: 16px;
+}
+
+#addCount{
+	font-weight: bold;
+	font-size: 18px;
+	width: 120px;
+}
+
+#reiniciar,#avancar{
+	width: 100px;
+	margin-left: 4px;
+}
+
+.l1{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #ff0000 ;
+}
+
+.l2{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #fc00ff;
+}
+
+.l3{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #6000ff;
+}
+
+.l4{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #0006ff;
+}
+
+.l5{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #1e7005;
+}
+
+.l6{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #ff7200;
+}
+
+.l7{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #0bc4e0;
+}
+
+.l8{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #000000;
+}
+
+.l9{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #a81050;
+}
+
+.l10{
+	height: 35px;
+	width: 35px;
+	padding: 5px;
+	margin: 25px;
+	border-radius: 50px;
+	background-color: #0006ff;
+
+}
+
+#corpoTeclas{
+	margin-top: 30px;
+}
+
+#colunas{
+	margin: 0px;
+}
+#teclas{
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#ok{
+	/*position: absolute;*/
+	/*vertical-align: middle;*/
+	/*padding-bottom: 0px;*/
+	margin-left: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	color: green;
+}
+
+#separaDivs{
+	padding-top: 10px;
+}
+
+label{
+	width: 140px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+	color: red;
+}
